@@ -86,3 +86,16 @@ p {
     padding-left: 110px;
     font-size: large;
 }
+
+code{
+    display: block;
+    position: relative;
+    width: 60%;
+    white-space: pre-line;
+    border: 2px hidden black;
+    border-radius: 20px;
+    margin-left: 60px;
+    padding: 20px;
+    font-size: medium;
+    background-color: rgb(128, 128, 128, 0.2);
+}

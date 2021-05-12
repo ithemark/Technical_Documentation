@@ -16,7 +16,6 @@ html{
     border-color: rgba(0, 22, 22, 0.4);
     text-align: center;
     overflow: scroll;
-    overflow-x: hidden;
 }
 
 #list{
@@ -33,7 +32,6 @@ html{
 }
 
 .link{
-    width: 100%;
     font-size: large;
     border-top: solid;
     border-color: rgb(0, 22, 22, 0.4);
@@ -95,7 +93,24 @@ code{
     border: 2px hidden black;
     border-radius: 20px;
     margin-left: 60px;
-    padding: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
     font-size: medium;
     background-color: rgb(128, 128, 128, 0.2);
+}
+
+@media (max-width: 700px) {
+    #selection_tab{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        height: 300px;
+        border-bottom: 4px solid rgb(128, 128, 128, 1)
+    }
+
+    #main-body{
+        width: 100%;
+        top: 300px;
+        left: 0;
+    }
 }
